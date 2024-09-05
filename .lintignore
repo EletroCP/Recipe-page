@@ -1,0 +1,8 @@
+# Ignorar todos os arquivos, exceto os .js
+*
+!*.js
+
+# Excluir diretórios específicos (opcional)
+node_modules/
+dist/
+build/

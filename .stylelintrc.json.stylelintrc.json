@@ -1,0 +1,22 @@
+{
+    "extends": "stylelint-config-standard",
+    "processors": ["stylelint-processor-html"],
+    "rules": {
+      "indentation": 2,
+      "max-nesting-depth": 3,
+      "color-hex-length": "short",
+      "color-named": "never",
+      "string-quotes": "single",
+      "unit-whitelist": ["em", "rem", "%", "px", "vh", "vw"],
+      "selector-max-id": 0,
+      "selector-max-class": 2,
+      "block-no-empty": true,
+      "declaration-block-trailing-semicolon": "always",
+      "no-duplicate-selectors": true,
+      "property-no-vendor-prefix": true,
+      "selector-pseudo-class-no-unknown": true,
+      "declaration-no-important": true,
+      "length-zero-no-unit": true
+    }
+  }
+  
