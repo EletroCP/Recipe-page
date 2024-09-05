@@ -16,3 +16,5 @@
 .prettierignore
 
 /node_modules
+/cypress/support/*
+/cypress/fixtures/*
