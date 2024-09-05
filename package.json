@@ -1,0 +1,19 @@
+{
+  "name": "recipe-page-main",
+  "version": "1.0.0",
+  "description": "Desafio de criar ima pagina de receitas",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EletroCP/Recipe-page.git"
+  },
+  "author": "EletroCP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EletroCP/Recipe-page/issues"
+  },
+  "homepage": "https://github.com/EletroCP/Recipe-page#readme"
+}
