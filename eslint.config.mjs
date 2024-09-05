@@ -8,6 +8,12 @@ export default [
     ignores: [".config/*", "eslint.config.mjs"]
   },
   {
+  "plugins": ["cypress"],
+  "env": {
+    "cypress/globals": true
+  },
+  },
+  {
     rules: {
       "quotes": ["error", "single"],
       "semi-style": ["error", "last"],
