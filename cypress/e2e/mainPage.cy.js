@@ -86,3 +86,47 @@ describe('Verifica se possui uma lista com os igredientes', () => {
     .should('have.length', 5);
   });
 });
+
+describe('Verifica se possui uma lista com as instruções', () => {
+  it('Existe uma ul com o id "instructions"', () => {
+    cy.get('ol')
+    .should('have.attr', 'id', 'instructions');
+  });
+
+  it('Se essa lista possui o numero correto de itens', () => {
+    cy.get('ul#igredients')
+    .find('li')
+    .should('have.length', 6);
+  });
+});
+
+describe('Verifica a tabela nutricional', () => {
+  it('Verifica se esta sessão possui um titulo', () => {
+    cy.get('h2')
+    .should('have.attr', 'id', '.nutrition-title')
+    .and('have.attr', 'value', 'Nutrition');
+  });
+
+  it('Verifica se esta sessão possui um descritivo', () => {
+    cy.get('p')
+    .should('have.attr',  'id', '.nutrition-describe')
+
+    cy.get('#nutrition-describe')
+      .should('have.attr')
+      .invoke('text')
+      .should('have.length', 85)
+  });
+
+  it('Deve ter 2 colunas e cada coluna com 5 linhas', () => {
+    cy.get('table#nutritional-table')
+      .find('tr')
+      .should('have.length', 5);
+
+    cy.get('table#nutritional-table')
+      .find('tr').each(($row) => {
+        cy.wrap($row)
+          .find('td')
+          .should('have.length', 2);
+      });
+  });
+});
