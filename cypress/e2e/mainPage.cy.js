@@ -73,3 +73,16 @@ describe('Verifica se possui uma lista com o tempo de preparação', () => {
     .should('have.length', 3);
   });
 });
+
+describe('Verifica se possui uma lista com os igredientes', () => {
+  it('Existe uma ul com o id "igredients"', () => {
+    cy.get('ul')
+    .should('have.attr', 'id', 'igredients');
+  });
+
+  it('Se essa lista possui o numero correto de itens', () => {
+    cy.get('ul#igredients')
+    .find('li')
+    .should('have.length', 5);
+  });
+});
