@@ -60,3 +60,16 @@ describe('Verificase possui texto descritivo', () => {
       .should('have.length', 177)
   });
 });
+
+describe('Verifica se possui uma lista com o tempo de preparação', () => {
+  it('Existe uma ul com o id "preparation-time"', () => {
+    cy.get('ul')
+    .should('have.attr', 'id', 'preparation-time');
+  });
+
+  it('Se essa lista possui o numero correto de itens', () => {
+    cy.get('ul#preparation-time')
+    .find('li')
+    .should('have.length', 3);
+  });
+});
