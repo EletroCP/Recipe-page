@@ -37,14 +37,26 @@ describe('Verifica se possui um titulo', () => {
   it('Deve conter um titulo h1', () => {
     cy.get('.main-title')
     .should('exist')
-    
+
     cy.get('h1').should('be.visible');
   });
 
 
-  it('Deve estár com o texto correto', () => {
+  it('Deve estar com o texto correto', () => {
     cy.get('.main-title')
     .should('have.attr', 'value')
     .be('Simple Omelette Recipe')
+  });
+});
+
+describe('Verificase possui texto descritivo', () => {
+  it('Deve estar com a descrição da receita', () => {
+    cy.get('.main-description')
+      .should('exist');
+
+    cy.get('.main-description')
+      .should('have.attr')
+      .invoke('text')
+      .should('have.length', 177)
   });
 });
