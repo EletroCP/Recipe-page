@@ -37,9 +37,10 @@ describe('Verifica se possui um titulo', () => {
   it('Deve conter um titulo h1', () => {
     cy.get('.main-title')
     .should('exist')
+    
+    cy.get('h1').should('be.visible');
   });
 
-  cy.get('h1').should('be.visible');
 
   it('Deve estár com o texto correto', () => {
     cy.get('.main-title')
