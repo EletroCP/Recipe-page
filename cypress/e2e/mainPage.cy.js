@@ -26,9 +26,24 @@ describe('Verifica se existe uma imagem', () => {
   });
 
   it('A tag deve conter um alt descritivo', () => {
-    Cy.get('.main-image')
+    cy.get('.main-image')
     .should('have.attr', 'alt')
     .be('Omelete')
   });
 });
 
+
+describe('Verifica se possui um titulo', () => {
+  it('Deve conter um titulo h1', () => {
+    cy.get('.main-title')
+    .should('exist')
+  });
+
+  cy.get('h1').should('be.visible');
+
+  it('Deve estár com o texto correto', () => {
+    cy.get('.main-title')
+    .should('have.attr', 'value')
+    .be('Simple Omelette Recipe')
+  });
+});
