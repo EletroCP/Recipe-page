@@ -39,6 +39,10 @@ ul li::marker {
     font-size: 10px;
 }
 
+ol li::marker {
+    color: var(--Rose800);
+}
+
 ul li {
     padding-left: 10px;
 }
@@ -108,18 +112,31 @@ ul li {
         margin-bottom: 15px;
     }
 
-    #igredients-title-container {
-        justify-content: start;
-        
-    }
-
     #igredients-container {
         text-align: start;
         width: 90%;
-        padding-top: 20px;
-        background-color: var(--Rose50);
+        padding-top: 5px;
         margin-left: 57px;
         border-radius: 15px;
+    }
+
+    #instruction-title {
+        padding-bottom: 15px;
+    }
+
+    #instruction-container {
+        padding-top: 15px;
+        max-width: 100%;
+    }
+    
+    #instructions {
+        max-width: 85%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    
+    #instructions li {
+        margin-bottom: 15px; 
     }
 }
 
