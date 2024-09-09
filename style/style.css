@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: var(--Rose50);
+    background-color: var(--White);
 }
 
 h1, h2 {
@@ -32,6 +32,15 @@ h3 {
 p, li, tr {
     font-family: outfit;
     color: var(--Stone600);
+}
+
+ul li::marker {
+    color: var(--Rose800);
+    font-size: 10px;
+}
+
+ul li {
+    padding-left: 10px;
 }
 
 @font-face {
@@ -73,6 +82,25 @@ p, li, tr {
     #main-description {
         text-align: start;
         width: 87%;
+    }
+
+    #preparation-time-title-container {
+        display: flex;
+        justify-content: start;
+        padding-left: 30px;
+    }
+
+    #preparation-time-container {
+        text-align: start;
+        width: 90%;
+        padding-top: 20px;
+        background-color: var(--Rose50);
+        margin-left: 12px;
+        border-radius: 15px;
+    }
+
+    #preparation-time li{
+        margin-bottom: 15px;
     }
 }
 
