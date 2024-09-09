@@ -138,6 +138,32 @@ ul li {
     #instructions li {
         margin-bottom: 15px; 
     }
+
+    #nutrition-title-container {
+        width:90%;
+        padding-top: 5px;
+        margin-left: 37px;
+    }
+
+    #nutrition-describe-container {
+        max-width: 90%;
+    }
+
+    #nutrition-describe {
+        padding-left: 37px;
+        padding-top: 15px;
+    }
+
+    .table-color {
+        color: var(--Brown800);
+        font-weight: bold;
+    }
+
+    #nutritional-table {
+        padding-left: 25px;
+        padding-top: 15px;
+        width: 80%;
+    }
 }
 
 @media(min-width: 376px) {
