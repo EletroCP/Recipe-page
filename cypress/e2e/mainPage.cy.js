@@ -32,7 +32,6 @@ describe('Verifica se existe uma imagem', () => {
   });
 });
 
-
 describe('Verifica se possui um titulo', () => {
   it('Deve conter um titulo h1', () => {
     cy.get('.main-title')
@@ -89,7 +88,7 @@ describe('Verifica se possui uma lista com os igredientes', () => {
 
 describe('Verifica se possui uma lista com as instruções', () => {
   it('Existe uma ul com o id "instructions"', () => {
-    cy.get('ol')
+    cy.get('ul')
     .should('have.attr', 'id', 'instructions');
   });
 
