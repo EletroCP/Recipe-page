@@ -44,7 +44,7 @@ describe('Verifica se possui um titulo', () => {
   it('Deve estar com o texto correto', () => {
     cy.get('.main-title')
     .should('have.attr', 'value')
-    .be('Simple Omelette Recipe')
+    .be('Simple Omelette Recipe');
   });
 });
 
