@@ -168,6 +168,13 @@ ul li {
     .space {
         padding-bottom: 20px;
     }
+
+    .line {
+        margin-left: 8%;
+        border: 1px var(--Stone150) solid;
+        width: 85%;
+        margin-bottom: 15px;
+    }
 }
 
 @media(min-width: 376px) {
