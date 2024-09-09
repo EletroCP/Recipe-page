@@ -21,8 +21,17 @@ h1, h2 {
     font-family: YongSerif;
 }
 
-p {
+h2 {
+    color: var(--Brown800);
+}
+
+h3 {
+    color: var(--Rose800);
+}
+
+p, li, tr {
     font-family: outfit;
+    color: var(--Stone600);
 }
 
 @font-face {
@@ -39,8 +48,32 @@ p {
     border: 0;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px 0;
+}
+
 @media(max-width: 375px) {
-    
+    #main-image {
+        width: 100%;
+        padding-bottom: 5px;
+      }
+      
+    #main-title {
+    color: var(--Stone900);
+    font-size: 40px;
+    text-align: start;
+    width: 87%;
+    }
+
+    #main-description {
+        text-align: start;
+        width: 87%;
+    }
 }
 
 @media(min-width: 376px) {
