@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+@media(max-width: 375px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media(min-width: 376px) {
+    body {
+        background-color: blue;
+    }
+}
