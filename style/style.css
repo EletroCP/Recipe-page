@@ -66,6 +66,11 @@ ul li {
     padding: 5px 0;
 }
 
+.h2left {
+    justify-content: start;
+    padding-left: 35px; 
+}
+
 @media(max-width: 375px) {
     #main-image {
         width: 100%;
@@ -101,6 +106,20 @@ ul li {
 
     #preparation-time li{
         margin-bottom: 15px;
+    }
+
+    #igredients-title-container {
+        justify-content: start;
+        
+    }
+
+    #igredients-container {
+        text-align: start;
+        width: 90%;
+        padding-top: 20px;
+        background-color: var(--Rose50);
+        margin-left: 57px;
+        border-radius: 15px;
     }
 }
 
