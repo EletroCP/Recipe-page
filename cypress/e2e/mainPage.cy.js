@@ -1,6 +1,7 @@
 context('A 375p de resolção', ()  => {
   beforeEach(() => {
     cy.viewport('iphone-6');
+    cy.visit('http://localhost:5500/')
   });
     describe('Verifica se conecta a pagina', () => {
       it('Deve carregar a pagina', () => {
@@ -274,4 +275,3 @@ context('A 1280p de resolução', () => {
           });
       });
     });
-})
