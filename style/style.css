@@ -178,5 +178,49 @@ ul li {
 }
 
 @media(min-width: 376px) {
+    body {
+        background-color: var(--Rose50);
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
 
+    #main-container {
+        width: 54%;
+        background-color: var(--White);
+        border-radius: 25px;
+        margin-top: 6%;
+    }
+
+    #main-image-container {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 25px;
+
+    }
+
+    #main-image {
+        width: 90%;
+        justify-content: center;
+        border-radius: 20px;
+        padding-top: 12px;
+    }
+
+    #main-title-container {
+        display: block;
+        padding-bottom: 25px;
+    }
+
+    #main-title {
+        padding-left: 6%;
+        color: var(--Stone900);
+        font-weight: bolder;
+        font-size: 40px;
+    }
+
+    #main-description-container {
+        display: flex;
+        justify-content: center;
+        padding-left: 6%;
+    }
 }
