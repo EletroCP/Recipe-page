@@ -89,6 +89,12 @@ ul li {
     padding-bottom: 20px;
 }
 
+
+.table-color {
+    color: var(--Brown800);
+    font-weight: bold;
+}
+
 @media(max-width: 375px) {
     #main-image {
         width: 100%;
@@ -166,11 +172,6 @@ ul li {
     #nutrition-describe {
         padding-left: 37px;
         padding-top: 15px;
-    }
-
-    .table-color {
-        color: var(--Brown800);
-        font-weight: bold;
     }
 
     #nutritional-table {
@@ -276,5 +277,36 @@ ul li {
     #instructions li {
         padding-left: 2%;
         padding-bottom: 15px;
+    }
+
+    #nutrition-container {
+        display: flex;
+        justify-content: start;
+        padding-top: 3%;
+    }
+
+    #nutrition-title-container {
+        padding-left: 7%;
+    }
+
+    #nutrition-title {
+        font-size: 35px;
+        font-weight: bolder;
+    }
+
+    #nutrition-describe {
+        padding-left: 7%;
+        padding: 2% 0 0 7%;
+    }
+
+    #nutritional-table {
+        padding-left: 12%;
+        padding-top: 15px;
+        width: 90%;
+    }
+    
+    #nutritional-table td{
+        padding: 15px 0;
+        border-bottom: solid 1px var(--Stone150);
     }
 }
