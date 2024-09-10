@@ -27,6 +27,7 @@ h2 {
 
 h3 {
     color: var(--Rose800);
+    font-family: outfit;
 }
 
 p, li, tr {
@@ -196,14 +197,13 @@ ul li {
         display: flex;
         justify-content: center;
         padding-bottom: 25px;
-
+        padding-top: 6%;
     }
 
     #main-image {
         width: 90%;
         justify-content: center;
-        border-radius: 20px;
-        padding-top: 12px;
+        border-radius: 15px;
     }
 
     #main-title-container {
@@ -222,5 +222,36 @@ ul li {
         display: flex;
         justify-content: center;
         padding-left: 6%;
+    }
+
+    #preparation-time-container {
+        justify-content: start;
+        padding: 4% 0;
+    }
+
+    #preparation-time-title-container {
+        justify-content: start;
+    }
+
+    #preparation-time-title {
+        padding-left: 10%;
+    }
+
+    #preparation-time {
+        padding-left: 15%;
+    }
+
+    #igredients-title-container {
+        padding-left: 8%;
+    }
+
+    #igredients-title {
+        font-size: 33px;
+        font-weight: bolder;
+        padding-bottom: 15px;
+    }
+
+    #igredients {
+        padding-left: 12%;
     }
 }
