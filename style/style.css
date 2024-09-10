@@ -76,6 +76,19 @@ ul li {
     padding-left: 35px; 
 }
 
+
+.line {
+    margin-left: 8%;
+    border: 1px var(--Stone150) solid;
+    width: 85%;
+    margin-bottom: 15px;
+}
+
+
+.space {
+    padding-bottom: 20px;
+}
+
 @media(max-width: 375px) {
     #main-image {
         width: 100%;
@@ -166,16 +179,6 @@ ul li {
         width: 80%;
     }
 
-    .space {
-        padding-bottom: 20px;
-    }
-
-    .line {
-        margin-left: 8%;
-        border: 1px var(--Stone150) solid;
-        width: 85%;
-        margin-bottom: 15px;
-    }
 }
 
 @media(min-width: 376px) {
@@ -219,6 +222,7 @@ ul li {
     }
 
     #main-description-container {
+        width: 85%;
         display: flex;
         justify-content: center;
         padding-left: 6%;
@@ -253,5 +257,24 @@ ul li {
 
     #igredients {
         padding-left: 12%;
+    }
+
+    #instruction-container {
+        width: 85%;
+        margin-left: 3%;
+    }
+
+    #instruction-title {
+        padding: 3% 0 3% 0;
+        font-size: 35px;
+    }
+
+    #instructions {
+        padding-left: 4%;
+    }
+
+    #instructions li {
+        padding-left: 2%;
+        padding-bottom: 15px;
     }
 }
