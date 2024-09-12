@@ -122,22 +122,27 @@ ul li {
     }
     
     #preparation-time-container {
+        width: 86%;
+        margin-left: 7%;
         display: flex;
         justify-content: start;
         text-align: start;
-        width: 90%;
         padding-top: 20px;
         background-color: var(--Rose50);
         border-radius: 15px;
     }
 
     #preparation-time-title-container {
-        padding-left: 8%;
         padding-bottom: 20px;
+        justify-content: start;
+    }
+
+    #preparation-time-title {
+        padding-left: 8%;
     }
 
     #preparation-time {
-        padding-left: 40%;
+        padding-left: 10%;
     }
 
     
