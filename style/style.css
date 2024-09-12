@@ -1,0 +1,347 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+
+    --Brown800: hsl(14, 45%, 36%);
+
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+
+}
+
+body {
+    background-color: var(--White);
+}
+
+h1, h2 {
+    font-family: YongSerif;
+}
+
+h2 {
+    color: var(--Brown800);
+}
+
+h3 {
+    color: var(--Rose800);
+    font-family: outfit;
+}
+
+p, li, tr {
+    font-family: outfit;
+    color: var(--Stone600);
+}
+
+ul li::marker {
+    color: var(--Rose800);
+    font-size: 10px;
+}
+
+ol li::marker {
+    color: var(--Rose800);
+}
+
+ul li {
+    padding-left: 10px;
+}
+
+@font-face {
+    font-family: YongSerif;
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+
+    font-family: outfit;
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.h2left {
+    justify-content: start;
+}
+
+
+.line {
+    margin-left: 8%;
+    border: 1px var(--Stone150) solid;
+    width: 85%;
+    margin-bottom: 15px;
+}
+
+
+.space {
+    padding-bottom: 20px;
+}
+
+
+.table-color {
+    color: var(--Brown800);
+    font-weight: bold;
+}
+
+@media(max-width: 375px) {
+    #main-image {
+        width: 100%;
+        padding-bottom: 5px;
+      }
+
+    #main-title-container {
+        padding-left: 7%;
+    }
+      
+    #main-title {
+    color: var(--Stone900);
+    font-size: 40px;
+    text-align: start;
+    width: 87%;
+    }
+
+    #main-description-container {
+        padding-left: 7%;
+        width: 90%;
+    }
+
+    #main-description {
+        text-align: start;
+        width: 87%;
+    }
+    
+    #preparation-time-container {
+        display: flex;
+        justify-content: start;
+        text-align: start;
+        width: 90%;
+        padding-top: 20px;
+        background-color: var(--Rose50);
+        border-radius: 15px;
+    }
+
+    #preparation-time-title-container {
+        padding-left: 8%;
+        padding-bottom: 20px;
+    }
+
+    #preparation-time {
+        padding-left: 40%;
+    }
+
+    
+    #preparation-time li{
+        padding-left: 3%;
+        margin-bottom: 15px;
+    }
+
+    #igredients-title {
+        padding-left: 22%;
+        font-size: xx-large;
+    }
+
+    #igredients-container {
+        text-align: start;
+        width: 90%;
+        padding-top: 5px;
+        border-radius: 15px;
+    }
+
+    #igredients {
+        padding-left: 33%;
+    }
+
+    #instruction-title {
+        padding-bottom: 15px;
+    }
+
+    #instruction-container {
+        padding-top: 15px;
+    }
+
+    #instruction-title {
+        padding-left: 15%;
+        font-size: xx-large;
+    }
+    
+    #instructions {
+        max-width: 85%;
+        padding-left: 24%;
+        box-sizing: border-box;
+    }
+    
+    #instructions li {
+        margin-bottom: 15px; 
+    }
+
+    #nutrition-title-container {
+        width:90%;
+        padding-top: 5px;
+        margin-left: 37px;
+    }
+
+    #nutrition-title {
+        font-size: xx-large;
+    }
+
+    #nutrition-describe-container {
+        max-width: 90%;
+    }
+
+    #nutrition-describe {
+        padding-left: 37px;
+        padding-top: 15px;
+    }
+
+    #nutritional-table {
+        padding-left: 25px;
+        padding-top: 15px;
+        width: 80%;
+    }
+
+    #nutritional-table td {
+        border-bottom: solid var(--Stone100) 1px;
+        padding: 8px;
+    }
+
+}
+
+@media(min-width: 376px) {
+    body {
+        background-color: var(--Rose50);
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    #main-container {
+        width: 54%;
+        background-color: var(--White);
+        border-radius: 25px;
+        margin-top: 6%;
+    }
+
+    #main-image-container {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 25px;
+        padding-top: 6%;
+    }
+
+    #main-image {
+        width: 90%;
+        justify-content: center;
+        border-radius: 15px;
+    }
+
+    #main-title-container {
+        display: block;
+        padding-bottom: 25px;
+    }
+
+    #main-title {
+        padding-left: 6%;
+        color: var(--Stone900);
+        font-weight: bolder;
+        font-size: 40px;
+    }
+
+    #main-description-container {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        padding-left: 6%;
+    }
+
+    #preparation-time-container {
+        justify-content: start;
+        padding: 4% 0;
+    }
+
+    #preparation-time-title-container {
+        justify-content: start;
+    }
+
+    #preparation-time-title {
+        padding-left: 10%;
+    }
+
+    #preparation-time {
+        padding-left: 15%;
+    }
+
+    #igredients-title-container {
+        padding-left: 8%;
+    }
+
+    #igredients-title {
+        font-size: 33px;
+        font-weight: bolder;
+        padding-bottom: 15px;
+    }
+
+    #igredients {
+        padding-left: 12%;
+    }
+
+    #instruction-container {
+        width: 85%;
+        margin-left: 3%;
+    }
+
+    #instruction-title {
+        padding: 3% 0 3% 0;
+        font-size: 35px;
+    }
+
+    #instructions {
+        padding-left: 4%;
+    }
+
+    #instructions li {
+        padding-left: 2%;
+        padding-bottom: 15px;
+    }
+
+    #nutrition-container {
+        display: flex;
+        justify-content: start;
+        padding-top: 3%;
+    }
+
+    #nutrition-title-container {
+        padding-left: 7%;
+    }
+
+    #nutrition-title {
+        font-size: 35px;
+        font-weight: bolder;
+    }
+
+    #nutrition-describe {
+        padding-left: 7%;
+        padding: 2% 0 0 7%;
+    }
+
+    #nutritional-table {
+        padding-left: 12%;
+        padding-top: 15px;
+        width: 90%;
+    }
+    
+    #nutritional-table td{
+        padding: 15px 0;
+        border-bottom: solid 1px var(--Stone150);
+    }
+}
