@@ -73,7 +73,6 @@ ul li {
 
 .h2left {
     justify-content: start;
-    padding-left: 35px; 
 }
 
 
@@ -100,6 +99,10 @@ ul li {
         width: 100%;
         padding-bottom: 5px;
       }
+
+    #main-title-container {
+        padding-left: 7%;
+    }
       
     #main-title {
     color: var(--Stone900);
@@ -108,36 +111,55 @@ ul li {
     width: 87%;
     }
 
+    #main-description-container {
+        padding-left: 7%;
+        width: 90%;
+    }
+
     #main-description {
         text-align: start;
         width: 87%;
     }
-
-    #preparation-time-title-container {
+    
+    #preparation-time-container {
         display: flex;
         justify-content: start;
-        padding-left: 30px;
-    }
-
-    #preparation-time-container {
         text-align: start;
         width: 90%;
         padding-top: 20px;
         background-color: var(--Rose50);
-        margin-left: 12px;
         border-radius: 15px;
     }
 
+    #preparation-time-title-container {
+        padding-left: 8%;
+        padding-bottom: 20px;
+    }
+
+    #preparation-time {
+        padding-left: 40%;
+    }
+
+    
     #preparation-time li{
+        padding-left: 3%;
         margin-bottom: 15px;
+    }
+
+    #igredients-title {
+        padding-left: 22%;
+        font-size: xx-large;
     }
 
     #igredients-container {
         text-align: start;
         width: 90%;
         padding-top: 5px;
-        margin-left: 57px;
         border-radius: 15px;
+    }
+
+    #igredients {
+        padding-left: 33%;
     }
 
     #instruction-title {
@@ -146,12 +168,16 @@ ul li {
 
     #instruction-container {
         padding-top: 15px;
-        max-width: 100%;
+    }
+
+    #instruction-title {
+        padding-left: 15%;
+        font-size: xx-large;
     }
     
     #instructions {
         max-width: 85%;
-        padding: 0 15px;
+        padding-left: 24%;
         box-sizing: border-box;
     }
     
@@ -163,6 +189,10 @@ ul li {
         width:90%;
         padding-top: 5px;
         margin-left: 37px;
+    }
+
+    #nutrition-title {
+        font-size: xx-large;
     }
 
     #nutrition-describe-container {
@@ -178,6 +208,11 @@ ul li {
         padding-left: 25px;
         padding-top: 15px;
         width: 80%;
+    }
+
+    #nutritional-table td {
+        border-bottom: solid var(--Stone100) 1px;
+        padding: 8px;
     }
 
 }
