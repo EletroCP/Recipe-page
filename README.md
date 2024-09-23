@@ -1,69 +1,62 @@
-# Frontend Mentor - Recipe page solution
+# Frontend Mentor - Recipe Page Solution
 
-Essa é a solução para [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
+Essa é a solução para o [Recipe Page Challenge no Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
 
 ## Índice
 
-- [Visão geral](#visão-geral)
-  - [O desafio](#o-desafio)
-  - [Captura de tela](#capturad-de-tela)
+- [Visão Geral](#visão-geral)
+  - [O Desafio](#o-desafio)
+  - [Captura de Tela](#captura-de-tela)
   - [Links](#links)
-- [Meu processo](#meu-processo)
-  - [Construído com](#construído-com)
-  - [O que aprendi](#o-que-aprendi)
-  - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
-  - [Recursos úteis](#useful-resources)
+- [Meu Processo](#meu-processo)
+  - [Ferramentas Utilizadas](#ferramentas-utilizadas)
+  - [O Que Aprendi](#o-que-aprendi)
+  - [Desenvolvimento Contínuo](#desenvolvimento-contínuo)
+  - [Recursos Úteis](#recursos-úteis)
 - [Autor](#autor)
 - [Agradecimentos](#agradecimentos)
 
-## Visão geral
-    Depois de alguns meses sem programar, estou voltando para a área, este projeto foi escolhido para 
-    que possa retomar e aprimorar meus conhecimentos.
+## Visão Geral
 
-### Screenshot
+Após alguns meses sem programar, estou retomando a prática com este projeto, escolhido para refrescar e aprimorar meus conhecimentos.
 
-  Web: ![Web Version](readme/desktop.gif)
+### Captura de Tela
 
-  Mobile: ![Mobile Version](readme/mobile.gif)
+- Web: ![Versão Web](readme/desktop.gif)
+- Mobile: ![Versão Mobile](readme/mobile.gif)
 
 ### Links
 
-- Link para visitação: [Add live site URL here](https://eletrocp.github.io/Recipe-page/)
+- Link para visitação: [Recipe Page Live](https://eletrocp.github.io/Recipe-page/)
 
-## Meu processo
+## Meu Processo
 
-Inicialmente escrevi teste para que pudesse seguir um padrão, parti então para a estruturação do HTML criando as tags
-por fim estilizei utilizando css passando as classes e divs necessarias seguindo o modelo mobile first.
+Inicialmente, escrevi testes para garantir um padrão no desenvolvimento. Em seguida, organizei a estrutura do HTML com as tags necessárias. Por fim, estilizei o projeto utilizando CSS, seguindo o modelo "mobile first", definindo classes e divisões conforme necessário.
 
-### Ferramentas
+### Ferramentas Utilizadas
 
-- Marcação HTML5 semântica
-- Propriedades personalizadas CSS
+- HTML5 semântico
+- Propriedades personalizadas no CSS
 - Flexbox
-- Modelo mobile first
-- Cypress
-- Eslint
-- Stylelint
+- Design "mobile first"
+- Cypress para testes automatizados
+- Eslint para padronização de código
+- Stylelint para padronização de estilo
 
-### O que eu aprendi
+### O Que Aprendi
 
-Depois de algum tempo sem programar, algumas coisas que eram muito dificeis para entender, hoje ficaram mais fáceis.
-Sempre tive muita dificuldade com css, e esse projeto seviu para que eu visse que não é algo de outro mundo.
-Consegui desenvolver com certa facilidade o básico e aprendi mais sobre posicionamento.
+Depois de um tempo sem programar, percebi que alguns conceitos que antes pareciam difíceis agora são mais compreensíveis. Sempre tive dificuldades com CSS, e este projeto me mostrou que é possível dominar a linguagem com prática. Consegui desenvolver o básico com certa facilidade e aprendi mais sobre posicionamento e layout.
 
-### Desenvolvimento contínuo
+### Desenvolvimento Contínuo
 
-Agora que minha compreensão sobre css melhorou pretendo me aprofundar mais nas tecnicas de estilização para poder
-sempre melhorar e aprimorar meus conhecimento, também expandir minha noção para logo na criação do HTML ja adicionar todas
-as tags necessarias para o desenvolvimento bem como suas ids e classes.
+Agora que tenho uma melhor compreensão de CSS, pretendo me aprofundar nas técnicas de estilização para melhorar continuamente minhas habilidades. Também quero expandir meu conhecimento na estruturação do HTML, assegurando que as tags, classes e IDs adequadas sejam definidas desde o início.
 
-### Recursos úteis
+### Recursos Úteis
 
-- [Cypress](https://www.cypress.io/) - Ferramenta utilizada para testes frontend muito pratica e rapida de se aprender.
+- [Cypress](https://www.cypress.io/) - Uma ferramenta prática e rápida para testes frontend.
+- [W3Schools](https://www.w3schools.com/css/) - Um ótimo recurso de consulta para diversas linguagens, incluindo CSS.
 
-- [W3School](https://www.w3schools.com/css/) - Site de consulta para varios tipos de linguagem;
-
-## Author
+## Autor
 
 - Website - [Breno Lopes](https://eletrocp.github.io/Portifolio/)
 - Frontend Mentor - [@EletroCP](https://www.frontendmentor.io/profile/Eletrocp)
@@ -71,4 +64,4 @@ as tags necessarias para o desenvolvimento bem como suas ids e classes.
 
 ## Agradecimentos
 
-Gostaria de agradecer a [Yuut](https://www.linkedin.com/in/ingride-reis-yuut/) por sempre me auxiliar e me motivar a continuar tentando.
+Gostaria de agradecer à [Yuut](https://www.linkedin.com/in/ingride-reis-yuut/) por sempre me apoiar e motivar a continuar.
